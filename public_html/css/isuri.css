@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+ul.sidenav {
+font-size:1.2em;
+float:left;
+width:24%;
+margin:0;
+padding:0;
+list-style:none;
+background:#63F;
+border-bottom:1px solid #990833;
+border-top:1px solid #F03;
+}
+ul.slidenav li a{
+	display:block;
+	color:#fff;
+	text-decoration:blink;
+	width:195px;
+	padding:10px 10px 10px 35px;
+	background:url(slidenav.gif) no-repeat 5px 7px;
+	border-top:1px solid #990833;
+	border-bottom:1px solid #F03;
+}
+ul.slidenav li a:hover {
+	background: #ff008a url(slidenav.gif) no-repeat 5px 7px;
+	border-top:1px solid #1a4c76;
+}
+ul.slidenav li span{display:none;}
+ul.slidenav li a:hover span {
+	display:block;
+	font-size:0.8em;
+	padding:10px 0;
+}
